@@ -1,0 +1,23 @@
+{
+  "name": "vue-composition-api-tsx-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html ./src/app.ts --port 5000 --open",
+    "build": "parcel build ./src/index.html ./src/app.ts"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+    "@vue/babel-preset-jsx": "^1.1.2",
+    "@vue/component-compiler-utils": "^3.1.2",
+    "typescript": "^3.9.5",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^0.6.4",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
