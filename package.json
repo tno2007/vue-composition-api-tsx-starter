@@ -4,19 +4,28 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel ./src/index.html ./src/app.ts --port 5000 --open",
-    "build": "parcel build ./src/index.html ./src/app.ts"
+    "dev": "parcel ./src/index.html --port 5001 --open",
+    "build": "parcel build ./src/index.html"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
     "@vue/babel-preset-jsx": "^1.1.2",
     "@vue/component-compiler-utils": "^3.1.2",
-    "typescript": "^3.9.5",
+    "cssnano": "^4.1.10",
+    "less": "^3.12.2",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "sass": "^1.26.10",
+    "typescript": "^3.9.7",
     "vue-template-compiler": "^2.6.11"
   },
   "dependencies": {
     "@vue/composition-api": "^0.6.4",
+    "bootstrap-vue": "^2.15.0",
+    "dom7": "^2.1.5",
+    "framework7-vue": "^5.7.10",
+    "idle-vue": "^2.0.5",
+    "ssr-window": "^2.0.0",
     "vue": "^2.6.11",
     "vue-hot-reload-api": "^2.3.4"
   }
